@@ -143,6 +143,22 @@ def uoro_step(x, target, state, state_tilda, theta_tilda_em, theta_tilda_trans):
 
     v = srng.normal(size=state_delta.shape)
 
+    state_tilda_next = 
+
+    theta_delta_g_trans = 
+    theta_delta_g_em = 
+
+    rho_0 = 0.5
+
+    rho_1 = 0.5
+
+    state_tilda_next = rho_0*state_tilda_next + rho_1*v
+
+    theta_tilda_trans_next = 
+
+    theta_tilda_em_next = 
+
+    return new_gradient_trans, new_gradient_em
 
 
 
